@@ -1,0 +1,15 @@
+.likeButton {
+    font-size: 20px;
+    width: auto;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.likeCount {
+    margin-bottom: 50%;
+}

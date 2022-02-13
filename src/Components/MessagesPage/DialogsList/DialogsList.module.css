@@ -1,0 +1,6 @@
+.dialogsList {
+    padding: 0 0 5px 5px;
+
+    max-height: 450px;
+    overflow: auto;
+}

@@ -1,0 +1,9 @@
+.profileInfo {
+    display: grid;
+    grid-template-rows: 300px 125px;
+}
+
+.headImage {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+.postHeader {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15% 85%;
+    word-wrap:break-word;
+    padding: 20px;
+}
+
+.userImgContainer {
+}
+
+.userImgContainer img {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.postInfo {
+    align-self: center;
+}
+
+.userNameContainer {
+    max-height: 20px;
+    align-self: end;
+}
+
+.userNameContainer a {
+    text-decoration: none;
+    color: #0645AD;
+}
+
+.postDataContainer {
+}
+
+.postDataContainer a {
+    text-decoration: none;
+    color: #626d7a;
+    font-size: small;
+    font-style: italic;
+}

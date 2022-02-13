@@ -1,0 +1,10 @@
+.commentButton {
+    font-size: 20px;
+    color: black;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}

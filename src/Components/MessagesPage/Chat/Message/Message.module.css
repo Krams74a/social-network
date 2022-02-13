@@ -1,0 +1,44 @@
+.messageContainer {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 15fr 1fr;
+    grid-gap: 5px;
+    word-wrap:break-word;
+
+    margin-bottom: 25px;
+    padding: 7px;
+
+    background-color: #f0f2f5;
+}
+
+.messageContainer.isViewed {
+    background-color: white;
+}
+
+.messageContent {
+    display: grid;
+}
+
+.userName {
+    max-height: 20px;
+}
+
+.messageText {
+    min-width: 100%;
+}
+
+.messageText p {
+    padding: 0;
+    margin: 0;
+}
+
+.userImageContainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.userName a {
+    text-decoration: none;
+    color: #0645AD;
+}

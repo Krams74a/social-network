@@ -1,0 +1,9 @@
+.chat {
+    margin: 5px;
+    padding: 15px;
+
+    background-color: #FFFFFF;
+
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}

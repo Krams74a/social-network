@@ -1,0 +1,40 @@
+.addMessage {
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 5px;
+    height: 70px;
+}
+
+.textareaContainer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.addMessage textarea {
+    height: 100%;
+    width: 100%;
+
+    padding: 0 0 0 5px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.buttonContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.buttonContainer button{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #4c8ae9;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
